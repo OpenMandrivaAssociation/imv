@@ -17,7 +17,8 @@ BuildRequires:  ninja
 BuildRequires:  pkgconfig(SDL2_ttf)
 BuildRequires:  pkgconfig(cmocka)
 BuildRequires:  pkgconfig(fontconfig)
-BuildRequires:  pkgconfig(libheif)
+# Package is in restricted repository
+#BuildRequires:  pkgconfig(libheif)
 BuildRequires:  pkgconfig(libjpeg)
 BuildRequires:  pkgconfig(libpng16)
 BuildRequires:  pkgconfig(librsvg-2.0)

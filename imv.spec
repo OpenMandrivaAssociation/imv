@@ -5,7 +5,7 @@ Summary:        Image viewer for X11 and Wayland
 License:        GPL-2.0-or-later
 Group:          Graphics/Viewers
 URL:            https://git.sr.ht/~exec64/imv
-Source:         https://git.sr.ht/~exec64/imv/archive/v%{version}/%{name}-%{version}.tar.gz
+Source:         https://git.sr.ht/~exec64/imv/archive/v%{version}/%{name}-v%{version}.tar.gz
 
 BuildRequires:  asciidoc
 BuildRequires:  freeimage-devel

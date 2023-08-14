@@ -42,7 +42,9 @@ imv is a command line image viewer intended for use with tiling window managers.
 %autosetup -n %{name}-v%{version} -p1
 
 %build
-%meson -Dlibnsgif=disabled
+%meson   \
+          -Dlibnsgif=disabled \
+          -Dlibheif=disabled
 %meson_build
 
 %install

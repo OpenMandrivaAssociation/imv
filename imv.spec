@@ -1,11 +1,11 @@
 Name:           imv
-Version:        4.4.0
+Version:        4.5.0
 Release:        1
 Summary:        Image viewer for X11 and Wayland
 License:        GPL-2.0-or-later
 Group:          Graphics/Viewers
 URL:            https://git.sr.ht/~exec64/imv
-Source0:         https://git.sr.ht/~exec64/imv/archive/v%{version}/%{name}-v%{version}.tar.gz
+Source0:        https://git.sr.ht/~exec64/imv/archive/v%{version}/%{name}-v%{version}.tar.gz
 
 BuildRequires:  a2x
 BuildRequires:  asciidoc

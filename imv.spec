@@ -6,6 +6,7 @@ License:        GPL-2.0-or-later
 Group:          Graphics/Viewers
 URL:            https://git.sr.ht/~exec64/imv
 Source0:        https://git.sr.ht/~exec64/imv/archive/v%{version}/%{name}-v%{version}.tar.gz
+Patch0:		imv-4.5.0-icu76.patch
 
 BuildRequires:  a2x
 BuildRequires:  asciidoc

@@ -1,0 +1,12 @@
+diff -up imv-v4.5.0/meson.build.omv~ imv-v4.5.0/meson.build
+--- imv-v4.5.0/meson.build.omv~	2025-03-07 19:17:14.189138571 +0100
++++ imv-v4.5.0/meson.build	2025-03-07 19:18:20.428514891 +0100
+@@ -42,7 +42,7 @@ endif
+ 
+ _unicode = get_option('unicode')
+ if _unicode == 'icu'
+-  unicode_lib = dependency('icu-io')
++  unicode_lib = [dependency('icu-io'),dependency('icu-uc')]
+   add_project_arguments('-DIMV_USE_ICU', language: 'c')
+ elif _unicode == 'grapheme'
+   unicode_lib = cc.find_library('grapheme')

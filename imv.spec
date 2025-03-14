@@ -1,6 +1,6 @@
 Name:           imv
 Version:        4.5.0
-Release:        4
+Release:        5
 Summary:        Image viewer for X11 and Wayland
 License:        GPL-2.0-or-later
 Group:          Graphics/Viewers
